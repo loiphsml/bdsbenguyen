@@ -1,0 +1,39 @@
+#bottominfo{
+  ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    li{
+      font-family: 'Roboto Condensed', sans-serif;
+      text-align: left;
+      padding: 3px;
+      a{
+        color: white;
+        &:hover{
+          text-decoration: none;
+          text-shadow: 1px 1px 1px #fff;
+        }
+      }
+    }
+    li:first-child {
+      font-family: 'Cuprum', sans-serif;
+      border-bottom: 1px solid #b3b1b1;
+      text-align: left;
+      padding-top: 20px;
+      font-size: 22px;
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+    li:last-child{
+      padding-bottom: 20px;
+    }
+  }
+  padding-bottom: 30px;
+
+}
+.socialnw{
+  font-size: 18px;
+}
+.ttbt{
+
+}

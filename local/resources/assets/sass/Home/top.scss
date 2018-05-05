@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Cuprum|Francois+One|Fjalla+One|Gothic+A1|Roboto|Roboto+Condensed|Yanone+Kaffeesatz');
+@import "../_variables";
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.container{
+  padding: 0;
+}
+.navbar{
+font-size: 18px;
+  padding:3px 0 3px 0;
+
+}
+
+.bg-grey{
+  background-color: $bgcolor;
+}
+
+.top-line{
+  height: 6px;
+}
+
+.fas{
+  font-size: 26px;
+  padding-top: 0px;
+}
+.dm{
+  font-size: 26px;
+}
+
+.inf{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fab{
+  font-size: 68px;
+}
+.bannner{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
+
+.rbanner{
+  ul{
+    list-style-type: none;
+  }li{
+       float: right;
+       font-size: 22px;
+  padding-right: 13px;
+     }
+}
+.slogan{
+  font-size: 36px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; // remove the gap so it doesn't close
+}
+
+
+@media screen and (max-width: 420px) {
+.lban{
+  float: right;}
+  .rbanner{
+    display: none;
+  }
+}

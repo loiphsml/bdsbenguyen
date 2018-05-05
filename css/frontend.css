@@ -1,0 +1,224 @@
+@import url(https://fonts.googleapis.com/css?family=Anton|Cuprum|Francois+One|Fjalla+One|Gothic+A1|Roboto|Roboto+Condensed|Yanone+Kaffeesatz);* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.container {
+  padding: 0;
+}
+
+.navbar {
+  font-size: 18px;
+  padding: 3px 0 3px 0;
+}
+
+.bg-grey {
+  background-color: #29333c;
+}
+
+.top-line {
+  height: 6px;
+}
+
+.fas {
+  font-size: 26px;
+  padding-top: 0px;
+}
+
+.dm {
+  font-size: 26px;
+}
+
+.inf {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fab {
+  font-size: 68px;
+}
+
+.bannner {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
+
+.rbanner ul {
+  list-style-type: none;
+}
+
+.rbanner li {
+  float: right;
+  font-size: 22px;
+  padding-right: 13px;
+}
+
+.slogan {
+  font-size: 36px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 420px) {
+  .lban {
+    float: right;
+  }
+
+  .rbanner {
+    display: none;
+  }
+}
+
+#bottominfo {
+  padding-bottom: 30px;
+}
+
+#bottominfo ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+#bottominfo ul li {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: left;
+  padding: 3px;
+}
+
+#bottominfo ul li a {
+  color: white;
+}
+
+#bottominfo ul li a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+#bottominfo ul li:first-child {
+  font-family: 'Cuprum', sans-serif;
+  border-bottom: 1px solid #b3b1b1;
+  text-align: left;
+  padding-top: 20px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+#bottominfo ul li:last-child {
+  padding-bottom: 20px;
+}
+
+.socialnw {
+  font-size: 18px;
+}
+
+.img-aboutus1 {
+  border: 5px solid #29333c;
+  width: 100%;
+}
+
+.slider {
+  height: 260px;
+  margin-bottom: 10px;
+}
+
+.img-slider {
+  width: 100%;
+  height: 260px;
+}
+
+.listds {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 20px;
+}
+
+.dsbds {
+  list-style-type: circle;
+}
+
+.dsbds li a {
+  color: #000;
+}
+
+.dsbds li a:hover {
+  text-decoration: none;
+  color: #b9b9b9;
+}
+
+#titledm {
+  border-bottom: 1px solid #d9dcdd;
+}
+
+#titledm span {
+  font-size: 23px;
+}
+
+#titledm a {
+  font-weight: 430;
+  font-size: 20px;
+  color: #075586;
+  text-decoration: none;
+  font-family: 'Cuprum', sans-serif;
+}
+
+.card {
+  font-family: 'Roboto Condensed', sans-serif;
+  border: none;
+}
+
+.card-title {
+  font-size: 17px;
+}
+
+.card-text ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.viewbtn {
+  width: 100%;
+}
+
+.imgbds {
+  width: 100%;
+  height: auto;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.card-text {
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    width: 100%;
+  }
+
+  .slider {
+    height: 180px;
+  }
+
+  .img-slider {
+    width: 100%;
+    height: 180px;
+  }
+
+  .rsearchbanner {
+    display: none;
+  }
+}
+
